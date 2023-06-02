@@ -6,9 +6,6 @@ name: lint cli
 
 on:
   push:
-    branches:
-      - dev
-      - next
   pull_request:
     paths:
       - '.github/workflows/lint-cli.yml'

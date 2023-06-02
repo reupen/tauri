@@ -6,9 +6,6 @@ name: lint core
 
 on:
   push:
-    branches:
-      - dev
-      - next
   pull_request:
     paths:
       - '.github/workflows/lint-core.yml'
